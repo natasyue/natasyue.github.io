@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Work+Sans&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -19,6 +21,7 @@ body {
 	line-height: 4.2vh;
 	padding: 0 2vh;
 	background-color: #e0e1dd; 
+	font-family: Work Sans; 
 }
 
 
@@ -38,18 +41,34 @@ body {
 }
 
 #nav div{
-	padding: 0.5vh 0;
+	padding: 0.5vh 0;	
 	display: inline-block;
-	width: 196.5px;
+	width: 195px;
 	height: 30px;
 	text-align: center;
 	background-color: grey;
 	border-bottom: 3px solid black; 
+	font-family: Fraunces; 
 }
 
 #nav div:hover{
 	background-color: lightgrey;
 	border-bottom: 3px solid darkgrey; 
+	cursor: pointer;
+}
+
+#home {
+	top: 30px;
+}
+
+#home > article {
+	display: block; 
+	width: 800px;
+	height: 300px;
+	background-color: lightgrey; 
+	line-height: 30px; 
+	margin: 0 auto;
+	padding: 10px; 
 }
 
 a {
@@ -61,24 +80,30 @@ a {
 
 a:hover {
 	color: white;
+	cursor: pointer;
+}
+
+h1 {
+	line-height: 50px;
+	font-family: Fraunces; 
 }
 
 .article {
-	display: inline-block;
-	margin: 10px;
-	background-color: grey;
-	width: 200px;
-	height: 300px;
+	display: inline-block; 
+	margin: 10px; 
+	background-color: grey; 
+	width: 200px; 
+	height: 250px; 
 	color: rgba(255, 255, 255, 0.75);
-	text-align: center;
-	position: relative;
-	top: 50px;
-	left: 50px;
+	text-align: center; 
+	position: relative; 
+	top: 50px; 
+	left: 50px; 
 }
 
 .article header {
-	width:200px; 
-	height:100px; 
+	width: 200px; 
+	height: 100px; 
 }
 
 .article img {
@@ -90,17 +115,10 @@ a:hover {
 
 .article h3 {
 	position: relative; 
-	left:0px; 
-	top:-70px; 
+	left: 0px; 
+	top: -70px; 
 	color: white;
 }
-
-/*
-.button {
-
-
-}
-*/
 
 #content article{
 	width:1000px;
@@ -116,36 +134,7 @@ a:hover {
 	text-align: center;
 }
 
-#content {
 
-}
-
-
-
-
-/*
-nav {
-	position: fixed;
-	top: 15vh;
-	width: 200px;
-	background-color: #415a77;
-	color: white; 
-	font-family: sans-serif;
-	font-size:  3.6vh;
-}
-
-nav > div:hover {
-	background-color: black;
-	color: white;
-	border-bottom: 4px solid grey; 
-}
-
-nav > div {
-	padding: 1vh 0;
-	height: 40px;
-	text-align: center; 
-}
-*/
 
 
 
