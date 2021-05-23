@@ -106,8 +106,12 @@ a {
 }
 
 #banner2 {
+	margin: 0 auto;
 	opacity: 100; 
 	animation: opacityChange 1s ease-in infinite alternate;
+}
+#banner2:hover{
+	cursor: pointer;
 }
 
 
